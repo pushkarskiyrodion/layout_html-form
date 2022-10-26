@@ -11,33 +11,33 @@
     <link rel="stylesheet" href="./style.css">
   </head>
   <body>
-    <form method="POST" action="http://localhost:8080">
+    <form method="POST" action="https://mate-academy-form-lesson.herokuapp.com/create-application">
       <fieldset class="field">
         <legend>Personal information</legend>
         <label class="form_field">
           Surname:
           <input
-          type="text"
-          name="Surname"
-          autocomplete="off"
+            type="text"
+            name="Surname"
+            autocomplete="off"
           >
         </label>
         <label class="form_field">
           Name:
           <input
-          type="text"
-          name="Name"
-          autocomplete="off"
+            type="text"
+            name="Name"
+            autocomplete="off"
           >
         </label>
         <label class="form_field">
           How old are You?
           <input
-          type="number"
-          name="age"
-          min="1"
-          max="100"
-          value="12"
+            type="number"
+            name="age"
+            min="1"
+            max="100"
+            value="12"
           >
         </label>
         <label class="form_field">
@@ -55,19 +55,19 @@
         <label class="form_field">
           E-mail:
           <input
-          type="email"
-          name="email"
-          placeholder="email@example.com"
+            type="email"
+            name="email"
+            placeholder="email@example.com"
           >
         </label>
         <label class="form_field">
           Password:
           <input
-          type="password"
-          name="password"
-          minlength="4"
-          maxlength="20"
-          required
+            type="password"
+            name="password"
+            minlength="4"
+            maxlength="20"
+            required
           >
         </label>
       </fieldset>
@@ -77,14 +77,14 @@
         <label class="form_field">
           Do you love cats?
           <input
-          type="radio"
-          name="cat lover"
-          value="no"
+            type="radio"
+            name="catLover"
+            value="no"
           > Yes
           <input
-          type="radio"
-          name="cat lover"
-          value="no"
+            type="radio"
+            name="catLover"
+            value="no"
           > No
         </label>
         <label class="form_field">
@@ -98,13 +98,13 @@
         <label class="form_field">
           What are your favorite brand of cars?
           <select
-          name="car"
-          required
-          multiple
+            name="car"
+            required
+            multiple
           >Choose the car
             </option>
             <option value="BMW">BMW</option>
-            <option value="Mercedes">Audi</option>
+            <option value="Audi">Audi</option>
             <option value="Zaporozhets">Lada</option>
           </select>
         </label>
@@ -121,9 +121,9 @@
         <label class="form_field">
           Comments
           <textarea
-          name="comment"
-          cols="20"
-          rows="2"
+            name="comment"
+            cols="20"
+            rows="2"
           >
           </textarea>
         </label>

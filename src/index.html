@@ -76,16 +76,20 @@
         <legend>An interesting fact about you!</legend>
         <label class="form_field">
           Do you love cats?
-          <input
-            type="radio"
-            name="catLover"
-            value="no"
-          > Yes
-          <input
-            type="radio"
-            name="catLover"
-            value="no"
-          > No
+          <label>
+            <input
+              type="radio"
+              name="catLover"
+              value="no"
+            > Yes
+          </label>
+          <label>
+            <input
+              type="radio"
+              name="catLover"
+              value="no"
+            > No
+          </label>
         </label>
         <label class="form_field">
           What is your favorite color?
@@ -111,8 +115,6 @@
             How do you rate our work?
           <input type="range" value="0">
         </label>
-
-
       </fieldset>
 
       <fieldset class="field">
@@ -123,8 +125,7 @@
             name="comment"
             cols="20"
             rows="2"
-          >
-          </textarea>
+        ></textarea>
         </label>
         <label class="form_field">
           Would you recommend us?

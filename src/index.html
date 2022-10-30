@@ -74,7 +74,7 @@
 
       <fieldset class="field">
         <legend>An interesting fact about you!</legend>
-        <label class="form_field">
+        <div class="form_field">
           Do you love cats?
           <label>
             <input
@@ -90,27 +90,31 @@
               value="no"
             > No
           </label>
-        </label>
+        </div>
+
         <label class="form_field">
           What is your favorite color?
           <input type="color" name="color">
         </label>
+
         <label class="form_field">
           What time do you go to bed?
           <input type="time" name="time">
         </label>
+
         <label class="form_field">
           What are your favorite brand of cars?
           <select
             name="car"
             required
             multiple
-          >Choose the car
+          >
             <option value="BMW">BMW</option>
             <option value="Audi">Audi</option>
             <option value="Zaporozhets">Lada</option>
           </select>
         </label>
+
         <label class="form_field">
             How do you rate our work?
           <input type="range" value="0">
@@ -127,6 +131,7 @@
             rows="2"
          ></textarea>
         </label>
+
         <label class="form_field">
           Would you recommend us?
           <select name="recommend">
